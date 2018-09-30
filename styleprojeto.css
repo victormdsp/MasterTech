@@ -1,0 +1,148 @@
+body{
+    font-style: 16px;
+    background: #f3f3f3;
+}
+
+.botao:hover{
+    cursor:pointer;
+}
+
+.cabecalho {
+    display: flex;
+    background: #fff;
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+}
+
+.cabecalho div{
+   
+}
+
+.logo{
+    flex: 1;
+    order: 1;
+    margin-left: 5%;
+}
+
+.login{
+    flex: 1;
+    order: 2;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.primeiro{
+    display: flex;
+    align-content: space-around;
+    border: 2px solid black;
+    width: 80%;
+    height: 350px;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 7%;
+    background: white;
+    font-size: 20px;
+
+
+    
+
+}
+
+.primeiro div{
+
+}
+
+.noticia1{
+    flex: 1;
+    order: 1;
+}
+
+.noticia2{
+    flex: 1;
+    order: 2;
+}
+
+.pn2{
+    text-align: left;
+}
+
+.pn1{
+    text-align: left;
+}
+
+.segundo{
+    align-content: space-around;
+    border: 2px solid black;
+    width: 80%;
+    justify-content: center;
+    margin-left: 10%;
+    text-align: center;
+    background: white;
+    font-size: 20px;
+    height: 350px;
+}
+
+.descricao{
+
+}
+
+.verde{
+    color: #b9c941;
+}
+
+.logo2{
+    float: left;
+}
+
+.rodape{
+    display: flex;
+    background: #fff;
+    width: 100%;
+    top: 0;
+    font-size: 20px;
+    border-bottom: 1px solid #d8d8d8;
+    height: 45px;
+}
+
+a{
+    text-decoration: none;
+    padding: 5px,10px;
+}
+
+a:link{
+    color: #838383;    
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: white;
+    background: #b9c941;
+}
+
+a:active{
+    color: #535353;
+}
+
+.menu1{
+    float: right;
+    margin-left: 135px;
+    margin-right: 75px;
+    margin-top: 10px;
+}
+
+#login{
+
+}
+
+#senha{
+
+}
+
+.logado{
+    display: none;
+    flex: 1;
+    order: 2;
+}
